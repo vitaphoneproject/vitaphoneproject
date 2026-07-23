@@ -10,6 +10,10 @@
 
 <style>
 
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -19,31 +23,34 @@ html, body {
 }
 
 
-/* FULL WIDTH HEADER */
+/* LOGO AREA */
 
 header {
     width: 100%;
-    text-align: center;
     margin: 0;
     padding: 0;
+    text-align: center;
+    line-height: 0;
 }
 
 .logo {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 
-/* TITLE */
+/* TITLE UNDER LOGO */
 
 .tagline {
     margin: 0;
-    padding: 5px 0 20px 0;
+    padding: 8px 0 25px 0;
+    line-height: 1.2;
     font-size: 32px;
     letter-spacing: 3px;
-    text-align: center;
+    font-weight: normal;
 }
 
 
@@ -71,6 +78,10 @@ nav a {
     text-decoration: none;
     margin: 0 18px;
     font-size: 16px;
+}
+
+nav a:hover {
+    color: #bbbbbb;
 }
 
 
